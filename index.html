@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Search App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="form-group">
+                <h2>Live Weather App</h2>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="CityName" placeholder="Search weather by city name">
+                    <button onclick="getData()" type="submit" class="btn btn-danger">Search</button>
+                </div>
+            </div>
+            <div id="ShowData"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-center mt-5">
+    <p>&copy; 2024 Minhaz Tomal</p>
+</footer>
+
+<script src="js/axios.min.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
